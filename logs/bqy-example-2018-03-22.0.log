@@ -1,0 +1,28 @@
+2018-03-22 11:59:50.448 [main] [INFO ]  com.example.HelloWorld:48 - Starting HelloWorld on bqy with PID 2180 (G:\project\helloDemo\target\classes started by y in G:\project\helloDemo)
+2018-03-22 11:59:50.498 [main] [DEBUG]  com.example.HelloWorld:51 - Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-03-22 11:59:50.499 [main] [INFO ]  com.example.HelloWorld:661 - No active profile set, falling back to default profiles: default
+2018-03-22 12:00:07.557 [main] [INFO ]  com.example.HelloWorld:57 - Started HelloWorld in 19.599 seconds (JVM running for 25.883)
+2018-03-22 12:00:15.312 [XNIO-2 task-1] [WARN ]  org.n3r.eql.util.O:50 - eql.extension:eql is not recognized
+2018-03-22 12:00:15.314 [XNIO-2 task-1] [WARN ]  org.n3r.eql.util.O:50 - connection.impl:org.n3r.eql.trans.EqlDruidConnection is not recognized
+2018-03-22 12:00:16.661 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-22 12:00:16.935 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 4 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=gg, id=280084921383596032, type=student}, {sex=m, name=12, id=280282681003159552, type=student}, {sex=m, name=1111, id=280283201658892288, type=teacher}]
+2018-03-22 12:00:16.956 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-22 12:00:16.958 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 4 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=gg, id=280084921383596032, type=student}, {sex=m, name=12, id=280282681003159552, type=student}, {sex=m, name=1111, id=280283201658892288, type=teacher}]
+2018-03-22 12:00:27.471 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.prepare:90 - INSERT INTO user( id, name, type, sex) VALUES ( ?, ?, ?, ? )
+2018-03-22 12:00:27.472 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.params:86 - [280608855078154240, aa, student, m]
+2018-03-22 12:00:27.473 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.eval:92 - INSERT INTO user( id, name, type, sex) VALUES ( '280608855078154240', 'aa', 'student', 'm' )
+2018-03-22 12:00:27.604 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.result:15 - 1
+2018-03-22 12:00:49.272 [XNIO-2 task-3] [WARN ]  org.n3r.eql.util.O:50 - eql.extension:eql is not recognized
+2018-03-22 12:00:49.272 [XNIO-2 task-3] [WARN ]  org.n3r.eql.util.O:50 - connection.impl:org.n3r.eql.trans.EqlDruidConnection is not recognized
+2018-03-22 12:00:49.309 [XNIO-2 task-3] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-22 12:00:49.312 [XNIO-2 task-3] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 5 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=gg, id=280084921383596032, type=student}, {sex=m, name=12, id=280282681003159552, type=student}, {sex=m, name=1111, id=280283201658892288, type=teacher}, {sex=m, name=aa, id=280608855078154240, type=student}]
+2018-03-22 12:00:49.319 [XNIO-2 task-3] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-22 12:00:49.323 [XNIO-2 task-3] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 5 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=gg, id=280084921383596032, type=student}, {sex=m, name=12, id=280282681003159552, type=student}, {sex=m, name=1111, id=280283201658892288, type=teacher}, {sex=m, name=aa, id=280608855078154240, type=student}]
+2018-03-22 12:00:59.138 [XNIO-2 task-4] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.prepare:90 - INSERT INTO user( id, name, type, sex) VALUES ( ?, ?, ?, ? )
+2018-03-22 12:00:59.139 [XNIO-2 task-4] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.params:86 - [280608922155560960, 1, student, m]
+2018-03-22 12:00:59.140 [XNIO-2 task-4] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.eval:92 - INSERT INTO user( id, name, type, sex) VALUES ( '280608922155560960', '1', 'student', 'm' )
+2018-03-22 12:00:59.204 [XNIO-2 task-4] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.result:15 - 1
+2018-03-22 12:01:27.913 [XNIO-2 task-5] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-22 12:01:27.917 [XNIO-2 task-5] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 6 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=gg, id=280084921383596032, type=student}, {sex=m, name=12, id=280282681003159552, type=student}, {sex=m, name=1111, id=280283201658892288, type=teacher}, {sex=m, name=aa, id=280608855078154240, type=student}, {sex=m, name=1, id=280608922155560960, type=student}]
+2018-03-22 12:01:27.927 [XNIO-2 task-5] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-22 12:01:27.929 [XNIO-2 task-5] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 6 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=gg, id=280084921383596032, type=student}, {sex=m, name=12, id=280282681003159552, type=student}, {sex=m, name=1111, id=280283201658892288, type=teacher}, {sex=m, name=aa, id=280608855078154240, type=student}, {sex=m, name=1, id=280608922155560960, type=student}]

@@ -1,0 +1,128 @@
+2018-03-23 10:10:25.479 [main] [INFO ]  com.example.HelloWorld:48 - Starting HelloWorld on bqy with PID 7032 (G:\project\helloDemo\target\classes started by y in G:\project\helloDemo)
+2018-03-23 10:10:25.579 [main] [DEBUG]  com.example.HelloWorld:51 - Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-03-23 10:10:25.579 [main] [INFO ]  com.example.HelloWorld:661 - No active profile set, falling back to default profiles: default
+2018-03-23 10:10:32.102 [main] [INFO ]  com.example.HelloWorld:57 - Started HelloWorld in 8.593 seconds (JVM running for 13.027)
+2018-03-23 10:12:23.009 [XNIO-2 task-1] [WARN ]  org.n3r.eql.util.O:50 - eql.extension:eql is not recognized
+2018-03-23 10:12:23.009 [XNIO-2 task-1] [WARN ]  org.n3r.eql.util.O:50 - connection.impl:org.n3r.eql.trans.EqlDruidConnection is not recognized
+2018-03-23 10:12:24.136 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:12:24.368 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 6 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=gg, id=280084921383596032, type=student}, {sex=m, name=12, id=280282681003159552, type=student}, {sex=m, name=1111, id=280283201658892288, type=teacher}, {sex=m, name=aa, id=280608855078154240, type=student}, {sex=m, name=1, id=280608922155560960, type=student}]
+2018-03-23 10:12:24.380 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:12:24.383 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 6 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=gg, id=280084921383596032, type=student}, {sex=m, name=12, id=280282681003159552, type=student}, {sex=m, name=1111, id=280283201658892288, type=teacher}, {sex=m, name=aa, id=280608855078154240, type=student}, {sex=m, name=1, id=280608922155560960, type=student}]
+2018-03-23 10:12:25.515 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.prepare:90 - INSERT INTO user( id, name, type, sex) VALUES ( ?, ?, ?, ? )
+2018-03-23 10:12:25.525 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.params:86 - [280776455724675072, 1212, teacher, m]
+2018-03-23 10:12:25.525 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.eval:92 - INSERT INTO user( id, name, type, sex) VALUES ( '280776455724675072', '1212', 'teacher', 'm' )
+2018-03-23 10:12:25.565 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.result:15 - 1
+2018-03-23 10:12:53.802 [XNIO-2 task-3] [WARN ]  org.n3r.eql.util.O:50 - eql.extension:eql is not recognized
+2018-03-23 10:12:53.803 [XNIO-2 task-3] [WARN ]  org.n3r.eql.util.O:50 - connection.impl:org.n3r.eql.trans.EqlDruidConnection is not recognized
+2018-03-23 10:12:53.823 [XNIO-2 task-3] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:12:53.823 [XNIO-2 task-3] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 7 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=gg, id=280084921383596032, type=student}, {sex=m, name=12, id=280282681003159552, type=student}, {sex=m, name=1111, id=280283201658892288, type=teacher}, {sex=m, name=aa, id=280608855078154240, type=student}, {sex=m, name=1, id=280608922155560960, type=student}, {sex=m, name=1212, id=280776455724675072, type=teacher}]
+2018-03-23 10:12:53.833 [XNIO-2 task-3] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:12:53.843 [XNIO-2 task-3] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 7 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=gg, id=280084921383596032, type=student}, {sex=m, name=12, id=280282681003159552, type=student}, {sex=m, name=1111, id=280283201658892288, type=teacher}, {sex=m, name=aa, id=280608855078154240, type=student}, {sex=m, name=1, id=280608922155560960, type=student}, {sex=m, name=1212, id=280776455724675072, type=teacher}]
+2018-03-23 10:12:56.261 [XNIO-2 task-4] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:12:56.263 [XNIO-2 task-4] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 7 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=gg, id=280084921383596032, type=student}, {sex=m, name=12, id=280282681003159552, type=student}, {sex=m, name=1111, id=280283201658892288, type=teacher}, {sex=m, name=aa, id=280608855078154240, type=student}, {sex=m, name=1, id=280608922155560960, type=student}, {sex=m, name=1212, id=280776455724675072, type=teacher}]
+2018-03-23 10:12:56.272 [XNIO-2 task-4] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:12:56.272 [XNIO-2 task-4] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 7 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=gg, id=280084921383596032, type=student}, {sex=m, name=12, id=280282681003159552, type=student}, {sex=m, name=1111, id=280283201658892288, type=teacher}, {sex=m, name=aa, id=280608855078154240, type=student}, {sex=m, name=1, id=280608922155560960, type=student}, {sex=m, name=1212, id=280776455724675072, type=teacher}]
+2018-03-23 10:16:29.181 [XNIO-2 task-5] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:16:29.184 [XNIO-2 task-5] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:16:29.196 [XNIO-2 task-5] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:16:29.197 [XNIO-2 task-5] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:28:53.701 [XNIO-2 task-6] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:28:53.701 [XNIO-2 task-6] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:28:53.711 [XNIO-2 task-6] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:28:53.721 [XNIO-2 task-6] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:29:16.674 [XNIO-2 task-7] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:29:16.684 [XNIO-2 task-7] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:29:16.684 [XNIO-2 task-7] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:29:16.684 [XNIO-2 task-7] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:29:20.461 [XNIO-2 task-8] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:29:20.465 [XNIO-2 task-8] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:29:20.473 [XNIO-2 task-8] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:29:20.473 [XNIO-2 task-8] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:29:36.066 [XNIO-2 task-9] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:29:36.071 [XNIO-2 task-9] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:29:36.080 [XNIO-2 task-9] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:29:36.081 [XNIO-2 task-9] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:32:41.180 [XNIO-2 task-10] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:32:41.184 [XNIO-2 task-10] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:32:41.195 [XNIO-2 task-10] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:32:41.197 [XNIO-2 task-10] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:34:01.793 [XNIO-2 task-11] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:34:01.795 [XNIO-2 task-11] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:34:01.800 [XNIO-2 task-11] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:34:01.800 [XNIO-2 task-11] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:34:46.141 [XNIO-2 task-12] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:34:46.143 [XNIO-2 task-12] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:34:46.152 [XNIO-2 task-12] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:34:46.154 [XNIO-2 task-12] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:34:57.131 [XNIO-2 task-13] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:34:57.134 [XNIO-2 task-13] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:34:57.145 [XNIO-2 task-13] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:34:57.147 [XNIO-2 task-13] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:35:21.074 [XNIO-2 task-14] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:35:21.076 [XNIO-2 task-14] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 10:35:21.082 [XNIO-2 task-14] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 10:35:21.084 [XNIO-2 task-14] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 11:06:41.484 [XNIO-2 task-15] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 11:06:41.589 [XNIO-2 task-15] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 11:06:41.614 [XNIO-2 task-15] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 11:06:41.614 [XNIO-2 task-15] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 11:07:56.598 [XNIO-2 task-16] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 11:07:56.601 [XNIO-2 task-16] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 11:07:56.611 [XNIO-2 task-16] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 11:07:56.613 [XNIO-2 task-16] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 11:08:02.534 [XNIO-2 task-17] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 11:08:02.538 [XNIO-2 task-17] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 11:08:02.548 [XNIO-2 task-17] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 11:08:02.550 [XNIO-2 task-17] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 1 rows of: [{sex=m, name=工, id=279540491132022784, type=student}]
+2018-03-23 11:08:32.262 [XNIO-2 task-18] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.prepare:90 - INSERT INTO user( id, name, type, sex) VALUES ( ?, ?, ?, ? )
+2018-03-23 11:08:32.263 [XNIO-2 task-18] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.params:86 - [280783516608966656, 12, teacher, m]
+2018-03-23 11:08:32.263 [XNIO-2 task-18] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.eval:92 - INSERT INTO user( id, name, type, sex) VALUES ( '280783516608966656', '12', 'teacher', 'm' )
+2018-03-23 11:08:32.292 [XNIO-2 task-18] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.result:15 - 1
+2018-03-23 11:08:33.054 [XNIO-2 task-19] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.prepare:90 - INSERT INTO user( id, name, type, sex) VALUES ( ?, ?, ?, ? )
+2018-03-23 11:08:33.055 [XNIO-2 task-19] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.params:86 - [280783518267813888, 12, teacher, m]
+2018-03-23 11:08:33.055 [XNIO-2 task-19] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.eval:92 - INSERT INTO user( id, name, type, sex) VALUES ( '280783518267813888', '12', 'teacher', 'm' )
+2018-03-23 11:08:33.057 [XNIO-2 task-19] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.result:15 - 1
+2018-03-23 11:08:33.447 [XNIO-2 task-20] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.prepare:90 - INSERT INTO user( id, name, type, sex) VALUES ( ?, ?, ?, ? )
+2018-03-23 11:08:33.448 [XNIO-2 task-20] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.params:86 - [280783519071023104, 12, teacher, m]
+2018-03-23 11:08:33.448 [XNIO-2 task-20] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.eval:92 - INSERT INTO user( id, name, type, sex) VALUES ( '280783519071023104', '12', 'teacher', 'm' )
+2018-03-23 11:08:33.450 [XNIO-2 task-20] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.result:15 - 1
+2018-03-23 11:08:34.273 [XNIO-2 task-21] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 11:08:34.275 [XNIO-2 task-21] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 4 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=12, id=280783516608966656, type=teacher}, {sex=m, name=12, id=280783518267813888, type=teacher}, {sex=m, name=12, id=280783519071023104, type=teacher}]
+2018-03-23 11:08:34.285 [XNIO-2 task-21] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 11:08:34.288 [XNIO-2 task-21] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 4 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=12, id=280783516608966656, type=teacher}, {sex=m, name=12, id=280783518267813888, type=teacher}, {sex=m, name=12, id=280783519071023104, type=teacher}]
+2018-03-23 11:08:37.564 [XNIO-2 task-22] [DEBUG]  e.c.e.u.service.UserService.eql.deleteUser.prepare:90 - DELETE FROM user WHERE id = ?
+2018-03-23 11:08:37.564 [XNIO-2 task-22] [DEBUG]  e.c.e.u.service.UserService.eql.deleteUser.params:86 - [280783518267813888]
+2018-03-23 11:08:37.564 [XNIO-2 task-22] [DEBUG]  e.c.e.user.service.UserService.eql.deleteUser.eval:92 - DELETE FROM user WHERE id = '280783518267813888'
+2018-03-23 11:08:37.584 [XNIO-2 task-22] [DEBUG]  e.c.e.u.service.UserService.eql.deleteUser.result:15 - 1
+2018-03-23 18:01:08.781 [main] [INFO ]  com.example.HelloWorld:48 - Starting HelloWorld on bqy with PID 10120 (G:\project\helloDemo\target\classes started by y in G:\project\helloDemo)
+2018-03-23 18:01:10.111 [main] [DEBUG]  com.example.HelloWorld:51 - Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-03-23 18:01:10.111 [main] [INFO ]  com.example.HelloWorld:661 - No active profile set, falling back to default profiles: default
+2018-03-23 18:01:23.713 [main] [INFO ]  com.example.HelloWorld:57 - Started HelloWorld in 43.269 seconds (JVM running for 54.948)
+2018-03-23 18:03:25.611 [XNIO-2 task-1] [WARN ]  org.n3r.eql.util.O:50 - eql.extension:eql is not recognized
+2018-03-23 18:03:25.611 [XNIO-2 task-1] [WARN ]  org.n3r.eql.util.O:50 - connection.impl:org.n3r.eql.trans.EqlDruidConnection is not recognized
+2018-03-23 18:03:26.561 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 18:03:26.641 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 3 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=12, id=280783516608966656, type=teacher}, {sex=m, name=12, id=280783519071023104, type=teacher}]
+2018-03-23 18:03:26.691 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 18:03:26.701 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 3 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=12, id=280783516608966656, type=teacher}, {sex=m, name=12, id=280783519071023104, type=teacher}]
+2018-03-23 18:03:44.096 [XNIO-2 task-2] [WARN ]  org.n3r.eql.util.O:50 - eql.extension:eql is not recognized
+2018-03-23 18:03:44.097 [XNIO-2 task-2] [WARN ]  org.n3r.eql.util.O:50 - connection.impl:org.n3r.eql.trans.EqlDruidConnection is not recognized
+2018-03-23 18:03:44.121 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 18:03:44.124 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 3 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=12, id=280783516608966656, type=teacher}, {sex=m, name=12, id=280783519071023104, type=teacher}]
+2018-03-23 18:03:44.134 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 18:03:44.136 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 3 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=12, id=280783516608966656, type=teacher}, {sex=m, name=12, id=280783519071023104, type=teacher}]
+2018-03-23 18:03:46.429 [XNIO-2 task-3] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 18:03:46.432 [XNIO-2 task-3] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 3 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=12, id=280783516608966656, type=teacher}, {sex=m, name=12, id=280783519071023104, type=teacher}]
+2018-03-23 18:03:46.444 [XNIO-2 task-3] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 18:03:46.449 [XNIO-2 task-3] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 3 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=12, id=280783516608966656, type=teacher}, {sex=m, name=12, id=280783519071023104, type=teacher}]
+2018-03-23 18:04:04.903 [XNIO-2 task-4] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 18:04:04.906 [XNIO-2 task-4] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 3 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=12, id=280783516608966656, type=teacher}, {sex=m, name=12, id=280783519071023104, type=teacher}]
+2018-03-23 18:04:04.919 [XNIO-2 task-4] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 18:04:04.921 [XNIO-2 task-4] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 3 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=12, id=280783516608966656, type=teacher}, {sex=m, name=12, id=280783519071023104, type=teacher}]
+2018-03-23 18:04:07.455 [XNIO-2 task-5] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 18:04:07.465 [XNIO-2 task-5] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 3 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=12, id=280783516608966656, type=teacher}, {sex=m, name=12, id=280783519071023104, type=teacher}]
+2018-03-23 18:04:07.473 [XNIO-2 task-5] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 18:04:07.478 [XNIO-2 task-5] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 3 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=12, id=280783516608966656, type=teacher}, {sex=m, name=12, id=280783519071023104, type=teacher}]
+2018-03-23 18:04:21.396 [XNIO-2 task-6] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 18:04:21.399 [XNIO-2 task-6] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 3 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=12, id=280783516608966656, type=teacher}, {sex=m, name=12, id=280783519071023104, type=teacher}]
+2018-03-23 18:04:21.408 [XNIO-2 task-6] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-23 18:04:21.410 [XNIO-2 task-6] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 3 rows of: [{sex=m, name=工, id=279540491132022784, type=student}, {sex=m, name=12, id=280783516608966656, type=teacher}, {sex=m, name=12, id=280783519071023104, type=teacher}]

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../afuos-admin-server/admin-server.iml" filepath="$PROJECT_DIR$/../afuos-admin-server/admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../afuos-admin-frontend/afuos-admin-frontend.iml" filepath="$PROJECT_DIR$/../afuos-admin-frontend/afuos-admin-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../afuos-game-server/afuos-game-server.iml" filepath="$PROJECT_DIR$/../afuos-game-server/afuos-game-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloDemo.iml" filepath="$PROJECT_DIR$/helloDemo.iml" />
+      <module fileurl="file://G:/ideaIU/my-project/my-project.iml" filepath="G:/ideaIU/my-project/my-project.iml" />
+    </modules>
+  </component>
+</project>

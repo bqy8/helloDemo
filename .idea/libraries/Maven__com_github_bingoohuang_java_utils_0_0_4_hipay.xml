@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.bingoohuang:java-utils:0.0.4-hipay">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/bingoohuang/java-utils/0.0.4-hipay/java-utils-0.0.4-hipay.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/bingoohuang/java-utils/0.0.4-hipay/java-utils-0.0.4-hipay-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/bingoohuang/java-utils/0.0.4-hipay/java-utils-0.0.4-hipay-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

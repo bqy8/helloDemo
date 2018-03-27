@@ -1,0 +1,66 @@
+2018-03-15 16:03:55.702 [main] [INFO ]  com.example.HelloWorld:48 - Starting HelloWorld on bqy with PID 1328 (G:\project\helloDemo\target\classes started by y in G:\project\helloDemo)
+2018-03-15 16:03:55.804 [main] [DEBUG]  com.example.HelloWorld:51 - Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-03-15 16:03:55.805 [main] [INFO ]  com.example.HelloWorld:661 - No active profile set, falling back to default profiles: default
+2018-03-15 16:04:10.355 [main] [INFO ]  com.example.HelloWorld:57 - Started HelloWorld in 16.246 seconds (JVM running for 19.632)
+2018-03-15 16:05:09.726 [XNIO-2 task-1] [WARN ]  org.n3r.eql.util.O:50 - eql.extension:eql is not recognized
+2018-03-15 16:05:09.728 [XNIO-2 task-1] [WARN ]  org.n3r.eql.util.O:50 - connection.impl:org.n3r.eql.trans.EqlDruidConnection is not recognized
+2018-03-15 16:05:16.761 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.prepare:90 - INSERT INTO user( id, name, type, sex) VALUES ( ?, ?, ?, ? )
+2018-03-15 16:05:16.769 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.prepare:90 - INSERT INTO user( id, name, type, sex) VALUES ( ?, ?, ?, ? )
+2018-03-15 16:05:16.780 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.params:86 - [279371245378809856, 12, student, m]
+2018-03-15 16:05:16.781 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.params:86 - [279371269661732864, 12, student, m]
+2018-03-15 16:05:16.781 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.eval:92 - INSERT INTO user( id, name, type, sex) VALUES ( '279371245378809856', '12', 'student', 'm' )
+2018-03-15 16:05:16.782 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.eval:92 - INSERT INTO user( id, name, type, sex) VALUES ( '279371269661732864', '12', 'student', 'm' )
+2018-03-15 16:05:17.245 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.result:15 - 1
+2018-03-15 16:05:17.245 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.result:15 - 1
+2018-03-15 16:11:26.026 [main] [INFO ]  com.example.HelloWorld:48 - Starting HelloWorld on bqy with PID 5240 (G:\project\helloDemo\target\classes started by y in G:\project\helloDemo)
+2018-03-15 16:11:26.031 [main] [DEBUG]  com.example.HelloWorld:51 - Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-03-15 16:11:26.032 [main] [INFO ]  com.example.HelloWorld:661 - No active profile set, falling back to default profiles: default
+2018-03-15 16:11:31.140 [main] [INFO ]  com.example.HelloWorld:57 - Started HelloWorld in 5.838 seconds (JVM running for 6.85)
+2018-03-15 16:11:46.638 [XNIO-2 task-1] [WARN ]  org.n3r.eql.util.O:50 - eql.extension:eql is not recognized
+2018-03-15 16:11:46.639 [XNIO-2 task-1] [WARN ]  org.n3r.eql.util.O:50 - connection.impl:org.n3r.eql.trans.EqlDruidConnection is not recognized
+2018-03-15 16:11:47.089 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.prepare:90 - INSERT INTO user( id, name, type, sex) VALUES ( ?, ?, ?, ? )
+2018-03-15 16:11:47.107 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.params:86 - [279372119937331200, 12, student, m]
+2018-03-15 16:11:47.108 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.eval:92 - INSERT INTO user( id, name, type, sex) VALUES ( '279372119937331200', '12', 'student', 'm' )
+2018-03-15 16:11:47.115 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.result:15 - 1
+2018-03-15 16:13:16.188 [XNIO-2 task-2] [WARN ]  org.n3r.eql.util.O:50 - eql.extension:eql is not recognized
+2018-03-15 16:13:16.189 [XNIO-2 task-2] [WARN ]  org.n3r.eql.util.O:50 - connection.impl:org.n3r.eql.trans.EqlDruidConnection is not recognized
+2018-03-15 16:13:16.230 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.prepare:90 - INSERT INTO user( id, name, type, sex) VALUES ( ?, ?, ?, ? )
+2018-03-15 16:13:16.231 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.params:86 - [279372309314351104, 12, student, m]
+2018-03-15 16:13:16.232 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.eval:92 - INSERT INTO user( id, name, type, sex) VALUES ( '279372309314351104', '12', 'student', 'm' )
+2018-03-15 16:13:16.254 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.insertUser-bean.result:15 - 1
+2018-03-15 16:13:30.094 [XNIO-2 task-3] [DEBUG]  e.c.e.u.service.UserService.eql.deleteUser.prepare:90 - DELETE FROM user WHERE id = ?
+2018-03-15 16:13:30.095 [XNIO-2 task-3] [DEBUG]  e.c.e.u.service.UserService.eql.deleteUser.params:86 - [279372309314351104]
+2018-03-15 16:13:30.096 [XNIO-2 task-3] [DEBUG]  e.c.e.user.service.UserService.eql.deleteUser.eval:92 - DELETE FROM user WHERE id = '279372309314351104'
+2018-03-15 16:13:30.098 [XNIO-2 task-3] [DEBUG]  e.c.e.u.service.UserService.eql.deleteUser.result:15 - 1
+2018-03-15 16:49:50.408 [main] [INFO ]  com.example.HelloWorld:48 - Starting HelloWorld on bqy with PID 8624 (G:\project\helloDemo\target\classes started by y in G:\project\helloDemo)
+2018-03-15 16:49:50.420 [main] [DEBUG]  com.example.HelloWorld:51 - Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-03-15 16:49:50.420 [main] [INFO ]  com.example.HelloWorld:661 - No active profile set, falling back to default profiles: default
+2018-03-15 16:49:55.434 [main] [INFO ]  com.example.HelloWorld:57 - Started HelloWorld in 5.914 seconds (JVM running for 8.774)
+2018-03-15 16:52:47.644 [XNIO-2 task-2] [WARN ]  org.n3r.eql.util.O:50 - eql.extension:eql is not recognized
+2018-03-15 16:52:47.645 [XNIO-2 task-2] [WARN ]  org.n3r.eql.util.O:50 - connection.impl:org.n3r.eql.trans.EqlDruidConnection is not recognized
+2018-03-15 16:52:48.076 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-15 16:52:48.272 [XNIO-2 task-2] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 5 rows of: [{sex=m, name=qq, id=279201951164608512, type=student}, {sex=m, name=qq, id=279202902298537984, type=student}, {sex=m, name=12, id=279371245378809856, type=student}, {sex=m, name=12, id=279371269661732864, type=student}, {sex=m, name=12, id=279372119937331200, type=student}]
+2018-03-15 16:53:05.807 [XNIO-2 task-3] [WARN ]  org.n3r.eql.util.O:50 - eql.extension:eql is not recognized
+2018-03-15 16:53:05.808 [XNIO-2 task-3] [WARN ]  org.n3r.eql.util.O:50 - connection.impl:org.n3r.eql.trans.EqlDruidConnection is not recognized
+2018-03-15 16:53:05.822 [XNIO-2 task-3] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-15 16:53:05.825 [XNIO-2 task-3] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 5 rows of: [{sex=m, name=qq, id=279201951164608512, type=student}, {sex=m, name=qq, id=279202902298537984, type=student}, {sex=m, name=12, id=279371245378809856, type=student}, {sex=m, name=12, id=279371269661732864, type=student}, {sex=m, name=12, id=279372119937331200, type=student}]
+2018-03-15 17:08:57.449 [main] [INFO ]  com.example.HelloWorld:48 - Starting HelloWorld on bqy with PID 5180 (G:\project\helloDemo\target\classes started by y in G:\project\helloDemo)
+2018-03-15 17:08:57.455 [main] [DEBUG]  com.example.HelloWorld:51 - Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-03-15 17:08:57.456 [main] [INFO ]  com.example.HelloWorld:661 - No active profile set, falling back to default profiles: default
+2018-03-15 17:09:02.986 [main] [INFO ]  com.example.HelloWorld:57 - Started HelloWorld in 6.669 seconds (JVM running for 8.027)
+2018-03-15 17:09:42.704 [XNIO-2 task-1] [WARN ]  org.n3r.eql.util.O:50 - eql.extension:eql is not recognized
+2018-03-15 17:09:42.704 [XNIO-2 task-1] [WARN ]  org.n3r.eql.util.O:50 - connection.impl:org.n3r.eql.trans.EqlDruidConnection is not recognized
+2018-03-15 17:09:43.084 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-15 17:09:43.125 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 5 rows of: [{sex=m, name=qq, id=279201951164608512, type=student}, {sex=m, name=qq, id=279202902298537984, type=student}, {sex=m, name=12, id=279371245378809856, type=student}, {sex=m, name=12, id=279371269661732864, type=student}, {sex=m, name=12, id=279372119937331200, type=student}]
+2018-03-15 17:09:43.136 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-15 17:09:43.140 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 5 rows of: [{sex=m, name=qq, id=279201951164608512, type=student}, {sex=m, name=qq, id=279202902298537984, type=student}, {sex=m, name=12, id=279371245378809856, type=student}, {sex=m, name=12, id=279371269661732864, type=student}, {sex=m, name=12, id=279372119937331200, type=student}]
+2018-03-15 17:13:31.294 [main] [INFO ]  com.example.HelloWorld:48 - Starting HelloWorld on bqy with PID 6984 (G:\project\helloDemo\target\classes started by y in G:\project\helloDemo)
+2018-03-15 17:13:31.299 [main] [DEBUG]  com.example.HelloWorld:51 - Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-03-15 17:13:31.300 [main] [INFO ]  com.example.HelloWorld:661 - No active profile set, falling back to default profiles: default
+2018-03-15 17:13:35.648 [main] [INFO ]  com.example.HelloWorld:57 - Started HelloWorld in 5.477 seconds (JVM running for 6.603)
+2018-03-15 17:13:49.713 [XNIO-2 task-1] [WARN ]  org.n3r.eql.util.O:50 - eql.extension:eql is not recognized
+2018-03-15 17:13:49.714 [XNIO-2 task-1] [WARN ]  org.n3r.eql.util.O:50 - connection.impl:org.n3r.eql.trans.EqlDruidConnection is not recognized
+2018-03-15 17:13:50.047 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-15 17:13:50.071 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 5 rows of: [{sex=m, name=qq, id=279201951164608512, type=student}, {sex=m, name=qq, id=279202902298537984, type=student}, {sex=m, name=12, id=279371245378809856, type=student}, {sex=m, name=12, id=279371269661732864, type=student}, {sex=m, name=12, id=279372119937331200, type=student}]
+2018-03-15 17:13:50.077 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.prepare:90 - SELECT * FROM user
+2018-03-15 17:13:50.079 [XNIO-2 task-1] [DEBUG]  e.c.e.u.s.UserService.eql.selectUserList.result:27 - total 5 rows of: [{sex=m, name=qq, id=279201951164608512, type=student}, {sex=m, name=qq, id=279202902298537984, type=student}, {sex=m, name=12, id=279371245378809856, type=student}, {sex=m, name=12, id=279371269661732864, type=student}, {sex=m, name=12, id=279372119937331200, type=student}]
