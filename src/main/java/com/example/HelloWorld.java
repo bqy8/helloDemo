@@ -24,4 +24,8 @@ public class HelloWorld {
         return "HelloWorld";
 
     }
+    public void world(){
+
+    }
+
 }
